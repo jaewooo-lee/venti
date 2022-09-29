@@ -1,5 +1,5 @@
 VENTI_VERSION=v0.1.9
-IMAGE_REPO=gchr.io/kuoss
+IMAGE_REPO=ghcr.io/kuoss
 
 LDFLAGS += -X "main.ventiVersion=$(VENTI_VERSION)"
 MAKEFLAGS += -j2
