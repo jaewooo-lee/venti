@@ -19,7 +19,7 @@ export default defineConfig({
     hmr: {
       overlay: false,
       protocol: 'ws',
-      host: 'venti.scpmgmt-dev.ske.kr-east.scp-in.com',
+      host: 'venti.example.com',
       clientPort: 80,
     },
     host: true,
